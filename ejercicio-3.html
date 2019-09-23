@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3</title>
+    <style>
+        .padre {
+            height: 100%;
+            width: 100%;
+        }
+        .bloque-banderas-1 {
+            height: 350px;
+            width: 1000px;
+            position: relative;
+            border: 1px solid gold;
+        }
+        .bloque-banderas-2 {
+            height: 350px;
+            width: 1000px;
+            position: relative;
+            border: 1px solid blue;
+        }
+        .españa {
+            height: 500px;
+            width: 500px;
+            display: inline-block;
+        }
+        .españa__rojo {
+            background-color: red;
+            height: 300px;
+            width: 400px;
+            position: absolute;
+            z-index: 0;
+        }
+        .españa__amarillo {
+            background-color: yellow;
+            height: 120px;
+            width: 400px;
+            position: absolute;
+            top: 90px;
+            z-index: 1;
+        }
+        .dinamarca {
+            height: 500px;
+            width: 500px;
+            display: inline-block;
+        }
+        .dinamarca__rojo {
+            background-color: red;
+            height: 300px;
+            width: 400px;
+            position: absolute;
+            z-index: 0;
+        }
+        .emiratos {
+            height: 500px;
+            width: 500px;
+            display: inline-block;
+            top: 500px;
+        }
+        .nihon{
+            height: 500px;
+            width: 500px;
+            display: inline-block;
+            left: 500px;
+            top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <div class="bloque-banderas-1">
+            <div class="españa">
+                <div class="españa__rojo">
+                    <div class="españa__amarillo"><div>
+                    </div>
+                        <!-- <h2>España</h2> -->
+                </div>    
+            </div>
+            <div class="dinamarca">
+                <div class="dinamarca__rojo"></div>
+            </div>
+        </div>
+        <div class="bloque-banderas-2">
+            <div class="emiratos">
+
+            </div>
+            <divc class="nihon">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
